@@ -38,3 +38,18 @@ body{
     margin-left: 20px;
     font-size: 25px;
 }
+.header_container img{
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+.header_logo{
+    padding: 10px 20px;
+    align-items: center;
+}
+.nav_container{
+    display: flex;
+    background-color: rgb(255, 238, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
