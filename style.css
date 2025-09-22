@@ -52,14 +52,29 @@ body{
     background-color: rgb(255, 255, 255);
     flex-direction: row;
     flex-wrap: wrap;
-}
-.nav_menu{
     align-items: center;
-    padding: 10px 100px;
+    justify-content: space-evenly;
 }
+<<<<<<< HEAD
 body img{
     width: 600px;
     height: 400px;
+=======
+a{
+    text-decoration: inherit;
+    color: rgb(177, 100, 0);
+}
+.carrossel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+.textodocarrossel{
+    flex-direction: row;
+    justify-content: flex-start;
+>>>>>>> 9b2f5ca499bff0e6162505c5384c7d62403412f6
 }
 * {box-sizing:border-box}
 
@@ -147,4 +162,52 @@ body img{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+<<<<<<< HEAD
 }
+=======
+}
+.containerJoel{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: space-around;
+
+}
+.col-50{
+    width: 50%;
+}
+.col-50a{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    padding: 15px;
+}
+.titulodasfotos{
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.titulodaespe{
+    justify-content: center;
+    display: flex;
+}
+.container_temos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.col-33{
+    width: 33.33%;
+    font-size: 70px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+>>>>>>> 9b2f5ca499bff0e6162505c5384c7d62403412f6
