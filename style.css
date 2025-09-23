@@ -55,27 +55,22 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-<<<<<<< HEAD
+
 body img{
     width: 600px;
     height: 400px;
-=======
+
 a{
     text-decoration: inherit;
     color: rgb(177, 100, 0);
 }
-.carrossel{
-    display: flex;
+
+.textoCarrossel{
     flex-direction: row;
     justify-content: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
 }
-.textodocarrossel{
-    flex-direction: row;
-    justify-content: flex-start;
->>>>>>> 9b2f5ca499bff0e6162505c5384c7d62403412f6
-}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -162,9 +157,9 @@ a{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-<<<<<<< HEAD
+
 }
-=======
+
 }
 .containerJoel{
     padding: 15px;
@@ -172,8 +167,8 @@ a{
     flex-direction: row;
     text-align: right;
     justify-content: space-around;
-
 }
+
 .col-50{
     width: 50%;
 }
@@ -188,11 +183,11 @@ a{
     display: flex;
     color: white;
 }
-.titulodaespe{
+.tituloEspecializacao{
     justify-content: center;
     display: flex;
 }
-.container_temos{
+.container_logos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -203,11 +198,12 @@ a{
     width: 33.33%;
     font-size: 70px;
 }
-button{
+.botaoparacontato{
+    display: flex;
     width: 200px;
     height: 60px;
     padding: 10px;
-    font-size: 30px;
+    justify-content: center;
 }
 
->>>>>>> 9b2f5ca499bff0e6162505c5384c7d62403412f6
+
