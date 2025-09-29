@@ -194,10 +194,46 @@ a{
     width: 33.33%;
     font-size: 70px;
 }
-button{
+.contatoespecializacao a{
     width: 200px;
     height: 60px;
-    padding: 10px;
+    padding: 20px;
     font-size: 30px;
+    color: rgb(255, 239, 218);
 }
-
+.titulododepoimento{
+    justify-content: center;
+    display: flex;
+}
+.comentarios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+.comentarios img{
+    width: 496px;
+    height: 226px;
+}
+.titulodocontato{
+    justify-content: center;
+    display: flex;
+}
+.textodocontato{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.fotolocal{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.map_img{
+  width: 600px;
+  height:auto ;
+  border-radius: 10px;
+}
